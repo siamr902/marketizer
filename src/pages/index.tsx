@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Marketing AI</title>
+        <title>Marketizer</title>
         <meta name="description" content="Experimental AI marketing generator with GPT-3" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

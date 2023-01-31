@@ -16,7 +16,7 @@ export default async function handler(
 
   const response = await openai.createCompletion({
     model: "text-davinci-002",
-    prompt: `You are a marketing expert, and a customer approaches you to write a very short and exciting marketing copy for them. This is the topic they would like a marketing copy for: '${query}.'\n\nThis is the short marketing copy you came up with:`,
+    prompt: `You are an incredible marketer, and a customer approaches you to write a very short and exciting marketing copy for them. This is the topic they would like a marketing copy for: '${query}.'\n\nThis is the short marketing copy you came up with:`,
     temperature: 0.85,
     max_tokens: 40,
     top_p: 1,
